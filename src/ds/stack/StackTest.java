@@ -1,10 +1,9 @@
-package com.learn;
+package ds.stack;
 
-class StackUsingLinkedListTest {
-
+public class StackTest {
+	
 	public static void main(String[] args) {
-		
-		StackUsingLinkedList<String> stack = new StackUsingLinkedList<>();
+		Stack<String> stack = new Stack<>(5);
 		
 		stack.push("First");
 		stack.push("Second");
@@ -24,7 +23,12 @@ class StackUsingLinkedListTest {
 		stack.push("Fourth");
 		stack.push("Fifth");
 		
-		stack.push("Sixth");
+		try {
+			stack.push("Sixth");
+		} catch (Exception ex) {
+			System.out.println(ex instanceof RuntimeException);
+		}
+		
 		
 		System.out.println(stack.peek());
 	}

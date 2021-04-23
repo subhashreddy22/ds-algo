@@ -1,4 +1,4 @@
-package com.learn;
+package ds.stack;
 
 import java.util.LinkedList;
 import java.util.Queue;

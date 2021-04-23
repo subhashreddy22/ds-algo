@@ -1,10 +1,10 @@
-package com.learn;
+package ds.queue;
 
-public class QueueUsingLinkedListTest {
-
-public static void main(String[] args) {
+public class QueueTest {
+	
+	public static void main(String[] args) {
 		
-		QueueUsingLinkedList<String> queue = new QueueUsingLinkedList<>();
+		Queue<String> queue = new Queue<>(5);
 		
 		queue.enqueue("First");
 		queue.enqueue("Second");

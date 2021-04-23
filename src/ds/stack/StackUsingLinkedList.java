@@ -1,12 +1,12 @@
-package com.learn;
+package ds.stack;
 
 public class StackUsingLinkedList<T> {
 	
-	Node<T> top;
+	StackNode<T> top;
 	
 	public void push(T t) {
 		
-		Node<T> node = new Node<T>(t);
+		StackNode<T> node = new StackNode<T>(t);
 		
 		if (top == null) {
 			top = node;
@@ -40,12 +40,12 @@ public class StackUsingLinkedList<T> {
 	}
 }
 
-class Node<T> {
+class StackNode<T> {
 	
 	T data;
-	Node<T> next;
+	StackNode<T> next;
 	
-	public Node(T data) {
+	public StackNode(T data) {
 		this.data = data;
 	}
 }

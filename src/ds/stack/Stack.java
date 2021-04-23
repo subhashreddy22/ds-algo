@@ -1,4 +1,4 @@
-package com.learn;
+package ds.stack;
 
 public class Stack<T> {
 

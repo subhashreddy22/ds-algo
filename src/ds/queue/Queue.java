@@ -1,4 +1,4 @@
-package com.learn;
+package ds.queue;
 
 public class Queue<T> {
 	
