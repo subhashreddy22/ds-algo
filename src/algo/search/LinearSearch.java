@@ -1,4 +1,4 @@
-package ds.search;
+package algo.search;
 
 import java.util.Scanner;
 
