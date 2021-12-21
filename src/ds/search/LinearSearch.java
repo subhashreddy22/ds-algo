@@ -2,6 +2,10 @@ package ds.search;
 
 import java.util.Scanner;
 
+/**
+ * Complexity: O(n). Array is not required to be sorted
+ *
+ */
 public class LinearSearch {
 
     public static void main(String[] args) {
